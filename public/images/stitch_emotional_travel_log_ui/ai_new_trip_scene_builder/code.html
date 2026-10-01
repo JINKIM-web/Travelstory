@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"surface-dim":"#d6dae4","on-surface-variant":"#57423d","secondary":"#526254","secondary-fixed":"#d5e7d5","inverse-primary":"#ffb4a3","secondary-fixed-dim":"#b9cbb9","on-secondary-container":"#566758","on-tertiary-fixed-variant":"#693c0a","surface-container-lowest":"#ffffff","tertiary-fixed-dim":"#fbb97d","primary-fixed-dim":"#ffb4a3","tertiary":"#82511f","outline":"#8a726c","surface-container-high":"#e4e8f2","on-error-container":"#93000a","error":"#ba1a1a","on-secondary":"#ffffff","on-tertiary-fixed":"#2d1600","primary":"#9e3c26","on-tertiary":"#ffffff","surface-container-highest":"#dee2ec","surface-container":"#eaeef8","surface-container-low":"#f0f4fd","surface-tint":"#a13e28","on-primary-fixed":"#3d0600","error-container":"#ffdad6","primary-fixed":"#ffdad2","primary-container":"#be543c","inverse-surface":"#2c3138","background":"#f8f9ff","on-secondary-fixed":"#101f13","on-secondary-fixed-variant":"#3b4b3d","outline-variant":"#ddc0ba","on-background":"#171c23","surface-bright":"#f8f9ff","on-surface":"#171c23","on-primary-fixed-variant":"#822714","tertiary-container":"#9e6934","inverse-on-surface":"#edf1fb","on-tertiary-container":"#fffbff","secondary-container":"#d2e4d2","on-primary-container":"#fffbff","surface":"#f8f9ff","on-error":"#ffffff","tertiary-fixed":"#ffdcc0","on-primary":"#ffffff","surface-variant":"#dee2ec"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"1.25rem","space-2xl":"4rem","space-sm":"0.5rem","margin-lg":"4rem","space-xs":"0.25rem","gutter-lg":"2.5rem","space-md":"1rem","space-lg":"1.5rem","space-xl":"2.5rem","margin-md":"2.5rem","gutter":"1.5rem"},"fontFamily":{"display-hero-mobile":["Playfair Display"],"headline-md":["Playfair Display"],"display-hero":["Playfair Display"],"label-caps":["Inter"],"body-md":["Inter"],"label-sm":["Inter"],"quote-editorial":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"body-sm":["Inter"],"body-lg":["Inter"],"headline-lg":["Playfair Display"],"label-md":["Inter"],"headline-sm":["Playfair Display"]},"fontSize":{"display-hero-mobile":["38px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-md":["28px",{"lineHeight":"38px","letterSpacing":"0em","fontWeight":"500"}],"display-hero":["56px",{"lineHeight":"68px","letterSpacing":"-0.02em","fontWeight":"600"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"600"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"-0.002em","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"500"}],"quote-editorial":["24px",{"lineHeight":"36px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg-mobile":["28px",{"lineHeight":"38px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"body-lg":["18px",{"lineHeight":"30px","letterSpacing":"-0.005em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"52px","letterSpacing":"-0.015em","fontWeight":"500"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"500"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"600"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/40"><div class="h-20 max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-lg flex-shrink-0"><a class="flex items-center gap-space-sm group focus:outline-none" data-path="dashboard" href="#"><img alt="TravelCanvasAI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UR8sYzHll358vLjnQbZ9BmloK4AYHaGzG16dRuKXl3V2XGHrq28EOQdaytu0IVzyIEZu0jLt-dj5gFgdRKzmXRJVckDhQqcJJDd6L8ZOgnCEjIoQozbnOUJjTmVSLppTFWmtVHu5SsVwvrOvSv-kjCnuUovXPqDxTb2UiZScMCOw1_oDTdAYT88DWbm_j8FTDUFvBRLwZrSB4Zu6c49Lq5GbmsWI-jNtsth8567Xnfx5Ryma2Qn38-FEM"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight group-hover:text-primary transition-colors">TravelCanvasAI</span></a><div class="h-5 w-px bg-outline-variant/60 hidden xl:block"></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-primary font-medium rounded-xl shadow-[0_1px_4px_rgba(30,35,42,0.04)]"><a class="px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="dashboard" href="#">내 여행 프로젝트</a><a aria-current="page" class="px-space-md py-space-sm transition-all bg-surface-container text-primary font-medium rounded-xl shadow-[0_1px_4px_rgba(30,35,42,0.04)]" data-path="new-trip" href="#">새 여행 만들기</a><a class="px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="album" href="#">갤러리 아카이브</a></nav></div><div class="flex items-center gap-space-sm md:gap-space-md"><div class="relative hidden sm:block"><button aria-label="Search" class="w-10 h-10 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button></div><button aria-label="Notifications" class="relative w-10 h-10 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-primary ring-2 ring-surface"></span></button><div class="h-6 w-px bg-outline-variant/50 mx-space-xs"></div><a class="flex items-center gap-space-sm pl-space-xs py-space-xs rounded-full hover:bg-surface-container-low transition-colors focus:outline-none" data-path="settings" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-outline-variant/50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGCjkZRsf2vURbaL2Sm-QTX-U5Frc6-djPgzoGIdM8jF4tYpaephS3lkRhzGNm1e06QihKTLpBpVW9j8ub2b1VRJLE2xrxjgubRQmUqJNc-zao4C9J5l6AYEM2ISjN2b8RDE8He7vsteei-c53JfMOFwZ1U8-39tcQqsl6b97xMBIv93n3p6BCPDZOgjzQR9OawivOTrtRXH5IzNBQQEFh1_NN2JX5O9Y78RSxAxpmRZO04QL-NHOkEg"/><span class="hidden md:inline-block font-label-md text-label-md text-on-surface-variant pr-space-xs">윤서진 작가</span></a></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-200px)]"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow -->
+<div class="relative w-full max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg pt-space-md pb-space-2xl">
+<div class="absolute top-12 left-1/4 w-96 h-96 bg-primary-fixed/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-48 right-10 w-80 h-80 bg-secondary-fixed/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- Step Progress Bar (Linen Editorial Flow) -->
+<div class="w-full mb-space-xl">
+<div class="bg-surface-container-low rounded-2xl p-space-md shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="font-label-caps text-label-caps text-primary px-space-sm py-1 rounded-full bg-primary-fixed/60">CHAPTER 02</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">시각적 기억의 편린과 AI 씬 빌더</span>
+</div>
+<!-- Wizard Stepper Indicator -->
+<div class="flex items-center gap-space-sm">
+<!-- Step 1 -->
+<div class="flex items-center gap-space-xs group cursor-pointer">
+<span class="w-6 h-6 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm flex items-center justify-center">
+<span class="material-symbols-outlined text-[14px]">check</span>
+</span>
+<span class="font-label-md text-label-md text-on-surface-variant hidden sm:inline">1. 여행 정보</span>
+</div>
+<div class="w-6 md:w-10 h-0.5 bg-primary"></div>
+<!-- Step 2 (Active) -->
+<div class="flex items-center gap-space-xs">
+<span class="w-6 h-6 rounded-full bg-primary text-on-primary font-label-sm text-label-sm flex items-center justify-center ring-4 ring-primary-fixed">2</span>
+<span class="font-label-md text-label-md text-primary font-semibold">2. 사진 &amp; AI 씬 빌더</span>
+</div>
+<div class="w-6 md:w-10 h-0.5 bg-surface-container-high"></div>
+<!-- Step 3 -->
+<div class="flex items-center gap-space-xs opacity-60">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm flex items-center justify-center">3</span>
+<span class="font-label-md text-label-md text-on-surface-variant hidden sm:inline">3. 기억 보완 질문</span>
+</div>
+<div class="w-6 md:w-10 h-0.5 bg-surface-container-high"></div>
+<!-- Step 4 -->
+<div class="flex items-center gap-space-xs opacity-60">
+<span class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm flex items-center justify-center">4</span>
+<span class="font-label-md text-label-md text-on-surface-variant hidden sm:inline">4. 완성 에세이</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Workspace Two-Column Bento Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-start">
+<!-- LEFT COLUMN: Project Metadata & User Memory Prompts (40% => lg:col-span-5) -->
+<aside class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- Project Essence Card -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm">
+<div class="flex items-center justify-between pb-space-sm mb-space-md border-b border-surface-container">
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">ARCHIVE PROFILE #JP-0710</span>
+<button class="flex items-center gap-1 font-label-sm text-label-sm text-tertiary hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[16px]">edit</span> 정보 수정
+            </button>
+</div>
+<div class="flex flex-col gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant block mb-1">여행 저널 타이틀</span>
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight leading-snug">
+                여름날의 교토, 오래된 정원과 골목길
+              </h2>
+</div>
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-caps text-label-caps text-on-surface-variant block">여행지</span>
+<div class="flex items-center gap-1 text-on-surface font-body-md text-body-md mt-0.5">
+<span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+<span class="truncate">교토 &amp; 오사카, 일본</span>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-xl">
+<span class="font-label-caps text-label-caps text-on-surface-variant block">여정 기간</span>
+<div class="flex items-center gap-1 text-on-surface font-body-md text-body-md mt-0.5">
+<span class="material-symbols-outlined text-secondary text-[18px]">calendar_today</span>
+<span class="truncate">24.07.10 - 07.15 (5박)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- AI Engine Live Telemetry & Status Indicator -->
+<div class="bg-surface-container-low rounded-2xl p-space-md shadow-sm relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-primary shadow-sm">
+<span class="material-symbols-outlined text-[22px] animate-pulse">auto_awesome</span>
+</div>
+<div>
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md font-semibold text-on-surface">시각 지능 분석 엔진 활성화</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">16장의 사진 메타데이터 분석 • 3개 핵심 씬(Scene) 자동 감지됨</p>
+</div>
+</div>
+</div>
+<!-- Quality Metric Badges -->
+<div class="mt-space-md grid grid-cols-3 gap-2 text-center">
+<div class="bg-surface-container-lowest rounded-xl p-space-xs py-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant block">빛/감성 평점</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">4.8★</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-xs py-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant block">식별된 랜드마크</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">5곳</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-xs py-2">
+<span class="font-label-caps text-label-caps text-on-surface-variant block">기후 무드</span>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">비 &amp; 안개</span>
+</div>
+</div>
+</div>
+<!-- Section 8: User Memory Prompt Card (기억 보완 질문) -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">edit_note</span>
+<span class="font-label-caps text-label-caps text-primary tracking-wider uppercase">Deep Memory Inquiry (Section 8)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+            당신의 감각을 더해 문장을 피워냅니다
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md leading-relaxed">
+            AI가 사진의 시간과 위치를 분석했습니다. 이제 셔터 뒤에 숨겨진 감정의 온도를 적어주세요.
+          </p>
+<div class="flex flex-col gap-space-md">
+<!-- Question 1 -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-medium text-on-surface flex items-center justify-between">
+<span>Q1. 이번 여행에서 가장 잊지 못할 한 순간은 언제였나요?</span>
+<span class="font-label-caps text-label-caps text-tertiary">기억 촉발</span>
+</label>
+<textarea class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl p-space-sm border-none focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all resize-none shadow-inner leading-relaxed" rows="3">철학의 길을 걸을 때 갑자기 쏟아진 소나기를 피해 작은 찻집 처마 밑에서 마셨던 따뜻한 말차. 처마 끝으로 떨어지는 빗소리와 짙은 이끼 냄새가 아직도 선명합니다.</textarea>
+</div>
+<!-- Question 2 -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md font-medium text-on-surface flex items-center justify-between">
+<span>Q2. 이 여행을 한 단어나 문장으로 표현한다면?</span>
+<span class="font-label-caps text-label-caps text-secondary">주제 정의</span>
+</label>
+<input class="w-full bg-surface-container-low text-on-surface font-body-md text-body-md rounded-xl px-space-sm py-2.5 border-none focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all shadow-inner" type="text" value="비 내린 뒤 더 짙어진 초록의 시간"/>
+</div>
+<!-- Editorial AI Insight Callout -->
+<div class="bg-surface-container-high/60 rounded-xl p-space-sm pl-space-md border-l-4 border-primary">
+<p class="font-quote-editorial text-quote-editorial italic text-on-surface leading-snug">
+                “습윤한 비의 냄새와 따뜻한 차 한 잔의 극적인 온도차는 이번 에세이의 가장 서정적인 모티프가 될 것입니다.”
+              </p>
+<div class="mt-2 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-tertiary">psychology</span>
+<span class="font-label-caps text-label-caps text-tertiary uppercase">AI 감성 편집위원 분석 큐레이션</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Prominent Sticky AI Generation Action Button -->
+<div class="sticky bottom-6 z-20">
+<button class="w-full py-space-md px-space-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 transition-all flex items-center justify-center gap-space-sm group">
+<span class="material-symbols-outlined text-[20px] group-hover:rotate-12 transition-transform">auto_fix_high</span>
+<span class="font-semibold text-lg tracking-tight">AI 여행 스토리 생성하기 ✨</span>
+</button>
+<p class="text-center font-label-caps text-label-caps text-on-surface-variant mt-2">
+            소요시간 약 25초 • 3개의 씬과 1개의 완결된 에세이 챕터가 도출됩니다.
+          </p>
+</div>
+</aside>
+<!-- RIGHT COLUMN: Uploaded Photos & Interactive Scene Builder (60% => lg:col-span-7) -->
+<section class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Drag & Drop Uploader Strip -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-sm border-2 border-dashed border-outline-variant/60 hover:border-primary/60 transition-colors group cursor-pointer">
+<div class="flex flex-col md:flex-row items-center justify-between gap-space-md text-center md:text-left">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">add_photo_alternate</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">새로운 사진 추가 업로드</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">스마트폰이나 카메라의 원본 사진(HEIC, JPG, PNG)을 끌어다 놓으세요.</p>
+</div>
+</div>
+<button class="px-space-md py-2.5 bg-surface-container-high hover:bg-surface-dim text-on-surface font-label-md text-label-md rounded-xl transition-all shadow-sm flex items-center gap-1.5 flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">cloud_upload</span>
+              파일 선택
+            </button>
+</div>
+</div>
+<!-- Scene Builder Header & Global Filters -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<h3 class="font-headline-md text-headline-md text-on-surface">자동 구조화된 씬 (Scenes)</h3>
+<span class="px-2.5 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-caps text-label-caps font-bold">3 SCENES DETECTED</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm hover:text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">swap_vert</span>
+              시간순 정렬
+            </button>
+<button class="px-3 py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm hover:text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">tune</span>
+              감성 태그 필터
+            </button>
+</div>
+</div>
+<!-- =================== SCENE 1 =================== -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md md:p-space-lg shadow-sm transition-all hover:shadow-md">
+<!-- Scene Title & Metadata Header -->
+<div class="flex items-start justify-between gap-space-md mb-space-md pb-space-sm border-b border-surface-container">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary text-on-secondary font-label-caps text-label-caps">SCENE 01</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">2024.07.10 (DAY 1) • 14:30 - 17:40</span>
+<span class="font-label-caps text-label-caps text-tertiary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">location_on</span> 교토 좌경구 (은각사 &amp; 철학의 길)
+                </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">
+                은각사와 철학의 길, 고요한 녹음 속으로
+              </h4>
+</div>
+<!-- Scene Controls -->
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="위로 이동">
+<span class="material-symbols-outlined text-[18px]">keyboard_arrow_up</span>
+</button>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="아래로 이동">
+<span class="material-symbols-outlined text-[18px]">keyboard_arrow_down</span>
+</button>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-error transition-colors" title="씬 삭제">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</div>
+<!-- Tags Strip for Scene 1 -->
+<div class="flex flex-wrap items-center gap-1.5 mb-space-md">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">park</span> 신사/정원
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">filter_vintage</span> 이끼정원
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">water_drop</span> 여름 소나기
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed/50 text-primary font-label-caps text-label-caps font-bold">
+              AI 핵심 하이라이트 씬
+            </span>
+</div>
+<!-- Scene 1 Photo Grid (4 Photos) -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
+<!-- Photo 1 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Warm film photography of Ginkaku-ji temple zen garden in Kyoto with lush green moss, gentle afternoon rain light, authentic analog Kodak Portra style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzYWje2kFi5snn-IAyYxnIU6eNZLxezL9abXNoFJHBDkCNfyxTf93BiZztC7pXHZv6sHqyO6M8aVTwpIH0XwKQ23H3p6Su6QvP1l72cZErNUjxapc3z3sY9Op5Ui2Gnrwm2BawIq709029X8dWu-tWm8iG3Mt46s7gX73bHvhXTpdRyLcu7rhm4rzaTXyF9tgNomQXB4fZUKkr9Ms_rLaMQb59ZfejOf-P-oDyCaxCOTcEeNlW4ZElfg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">14:32 • 은각사</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">은빛 모래와 비안개</span>
+</div>
+</div>
+<!-- Photo 2 (Hero Frame of Scene 1) -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm ring-2 ring-primary">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Philosopher's path in Kyoto lined with cherry trees and deep green foliage along the canal, wet stone pavement reflecting warm ambient light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBpM56NdKCAn03Psyx4J5dwcKTLx0-UChAAY3l9tfnG0TCJa5EyBc5zc3S8vCetWhkbUOANTU8hl8ym6HMtgSrSnRuD1-rcdPWwGfzJusMO9T734D7DiQFiD49l-774BSZowgfZI-6NN9uvmW3edxVwztZ0fPPLMh-rYTgsi0mXG_ZUk1THcgDG3fpBeVmtMGrmDnT1TvikNcSCIK97TCSmynVzyQZF_3BkzRyc1BNaZzid50YPw1Q4w"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 left-2">
+<span class="px-1.5 py-0.5 rounded bg-primary text-white font-label-caps text-[9px] font-bold">대표 사진</span>
+</div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">15:10 • 철학의 길</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">물길 따라 걷는 발걸음</span>
+</div>
+</div>
+<!-- Photo 3 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Close up of vibrant green moss under traditional wooden eaves with soft rain drops falling in a Japanese courtyard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyKLa_TQF13X4vnpK1W3HtOcyfztbNxdqBU3LB6W5wkMPuIVSkSmg2jhYleTpfx_g_Hx1bCQOvP-t2iKFMYLBHSjDgCiTiNMet7i5YnIpaGXeW5STMhxG7jqM8LhwyZnxG-qAlZH407r5yINHPwZnaA__pVopQSJhjtTaS_nWAqvpZSzIRvvdRhRuT3cXH7qKZYCIkLnoM9_adgngrVUmI4AwqZT_g9HGjIrEO7Lf7sT5bRcSm-Lp0WA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">16:05 • 처마 아래</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">소나기의 리듬</span>
+</div>
+</div>
+<!-- Photo 4 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Traditional Japanese stone lantern covered in velvet moss surrounded by wet bamboo leaves in Kyoto garden" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO6Cl83hgLbuSP0FD8rL56WGrAcDSaAa7i1mByIjSmNLXnlPOsZczCRuoNs1EA35BQPK2L_hqzUIbvbyfNo_yI6f7YC71uxSWnzXC5x_Ju9nM1OXi6eh_wh44c1UdlevZTp3tZ3F0EniZELqNx-hSHV7VLPIGm4GogJTAekvcAd6FaFcFQE3KHatQxP17PLj--zDO4GUtXXQ5tPc5yowMHUDh7jVZz2emM-iTYg21q6acKs8f6WjoFIA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">17:15 • 호넨인 인근</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">돌등과 이끼의 시간</span>
+</div>
+</div>
+</div>
+</div>
+<!-- =================== SCENE 2 =================== -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md md:p-space-lg shadow-sm transition-all hover:shadow-md">
+<!-- Scene Title & Metadata Header -->
+<div class="flex items-start justify-between gap-space-md mb-space-md pb-space-sm border-b border-surface-container">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary text-on-tertiary font-label-caps text-label-caps">SCENE 02</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">2024.07.11 (DAY 2) • 11:15 - 14:00</span>
+<span class="font-label-caps text-label-caps text-secondary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">local_cafe</span> 교토 나카교구 오래된 다방 골목
+                </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">
+                빗속의 다도와 골목길 다방의 온기
+              </h4>
+</div>
+<!-- Scene Controls -->
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="위로 이동">
+<span class="material-symbols-outlined text-[18px]">keyboard_arrow_up</span>
+</button>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="아래로 이동">
+<span class="material-symbols-outlined text-[18px]">keyboard_arrow_down</span>
+</button>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-error transition-colors" title="씬 삭제">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</div>
+<!-- Tags Strip for Scene 2 -->
+<div class="flex flex-wrap items-center gap-1.5 mb-space-md">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">emoji_food_beverage</span> 말차/디저트
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">storefront</span> 킷사텐 (Kissaten)
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">flare</span> 따뜻한 온기
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps">
+              정서적 교감도 높음
+            </span>
+</div>
+<!-- Scene 2 Photo Grid (3 Photos + Add Slot) -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm">
+<!-- Photo 1 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Traditional ceramic bowl with vibrant green frothy matcha tea and a delicate wagashi sweet on dark wood table inside vintage Kyoto tea house" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCscm_iVm6AfV2fWPlqa1uxEikWHQOf9kY-sKq7A3y31vsw5CodapiylUtX1R5gwlo566PL7-ZxDqvJn_BYF5BV2Qib_ZLAgB0_Po9Zj9AjfTTTn2qv1lXheBXd9fdW1NKUhHwawFoODQ6wHtK75OS_hQX1WPg6Lxdrvk6FuRXkMiTuyuirn3X7Zwc25y6OZrRe5sIGS4dG-OCOjXs0-bgELOF1DeVeOvavGDBvg_JPW1bPeebB_0GTAQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">11:40 • 킷사 소와레</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">한 사발의 말차와 단맛</span>
+</div>
+</div>
+<!-- Photo 2 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Steaming cup of hand drip coffee on polished antique mahogany counter with soft warm tungsten lamp reflection in Kyoto alley" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpkjI7oCt2khxUeEjbytYjxKXnvtSMGoyfEDQDdXHyudycB0Sr-uCBPXw_RL2wRP_CDP5_l2F3enKFwrETy4hgeAMfnngr-Jlu8PUpGszU5gM-cytdClRG5gW1R7Nj17usS3Sqzh_v8iTUrr-k420Y9OttGVhD86ZHSvfLIA5fw1X9NeKaQ2aEb8Mse1dr8nno8VgJiBbaTCIF03TjXyT2IdJuBnz9D-_62PoLdEGhCMbKigXOCB-iOQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">12:30 • 핸드드립 다방</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">비 피하던 골목의 온기</span>
+</div>
+</div>
+<!-- Photo 3 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Looking out a wooden framed lattice window covered in delicate raindrops showing wet stone Kyoto lane and warm lanterns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrhFxpXQx_ZVxXMS9PSwOpDtxRESKAlDFFL-vuhOXMWYgu_-hRtnD0aELQRWmq1_Nev1yTxcvFIvx0SzRwsMQZ3voNzPCfZDD0r7ratzrD-nm2CViz13EvgQE8VK8YmMhuFCzufLKLIIFLj1lHVuZxNcYSQtQ7FH32jfdYGym_oQ5wC9xUTP1NKxj1_C05OqFFeU4ClSwQjq82NmaK8gdsXs16gBSI2__yMaarc7NqfO6qCZpNIMrTIw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">13:45 • 창가 자리</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">격자창 너머 빗방울</span>
+</div>
+</div>
+<!-- Add Photo to Scene Slot -->
+<div class="rounded-xl border-2 border-dashed border-outline-variant/60 hover:border-primary/60 transition-colors flex flex-col items-center justify-center aspect-[3/4] cursor-pointer group bg-surface-container-low/50 hover:bg-surface-container-low">
+<div class="w-9 h-9 rounded-full bg-surface-container-high group-hover:bg-primary-fixed flex items-center justify-center text-on-surface-variant group-hover:text-primary transition-colors mb-1">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant group-hover:text-primary font-medium">사진 추가</span>
+</div>
+</div>
+</div>
+<!-- =================== SCENE 3 =================== -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md md:p-space-lg shadow-sm transition-all hover:shadow-md">
+<!-- Scene Title & Metadata Header -->
+<div class="flex items-start justify-between gap-space-md mb-space-md pb-space-sm border-b border-surface-container">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-caps text-label-caps">SCENE 03</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">2024.07.12 (DAY 3) • 17:00 - 20:30</span>
+<span class="font-label-caps text-label-caps text-primary flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">temple_buddhist</span> 후시미 이나리와 기온 거리
+                </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">
+                붉은 도리이 터널과 해질녘 기온의 등불
+              </h4>
+</div>
+<!-- Scene Controls -->
+<div class="flex items-center gap-1">
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="위로 이동">
+<span class="material-symbols-outlined text-[18px]">keyboard_arrow_up</span>
+</button>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors" title="아래로 이동">
+<span class="material-symbols-outlined text-[18px]">keyboard_arrow_down</span>
+</button>
+<button class="w-8 h-8 rounded-full hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-error transition-colors" title="씬 삭제">
+<span class="material-symbols-outlined text-[18px]">delete</span>
+</button>
+</div>
+</div>
+<!-- Tags Strip for Scene 3 -->
+<div class="flex flex-wrap items-center gap-1.5 mb-space-md">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">architecture</span> 도리이 길
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">wb_twilight</span> 골든 아워
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">nightlife</span> 기온 야경
+            </span>
+<span class="px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-caps text-label-caps">
+              5장의 사진 포함
+            </span>
+</div>
+<!-- Scene 3 Photo Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-space-sm">
+<!-- Photo 1 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Dramatic perspective shot looking through endless vermillion torii gates at Fushimi Inari shrine with golden late afternoon sunlight filtering through" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoVvPE_Hp_qVG3D9ubopAIK-NiiWrEOlFvihIs4J7CTgxKXImgiq8ruDZYm0gJ-gd7aU3QzXq9Ch3QtPKgdLz-cgukpYVQXfNxNbQFGNJcW_SiXd0WXGECzMURJCBExE0RYcIsxE8AevBTjMTdkSStSoZfyABiCsBaBsuaOy9D_A7bFFYrZMHmrDYqXF-neE4XTpK6zB8x90b3vwZqmtW0WToxJZUDA6EmKgmmGHktigqEPLFBdlc_Tw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">17:20 • 이나리 산</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">붉은 회랑의 빛</span>
+</div>
+</div>
+<!-- Photo 2 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Detail of black lacquered base and carved Japanese characters on orange torii gate in Kyoto temple" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_5miU6CLmtG_RyFGx45N3vaW3XWO5zmKNvkS-0qBol4Wj_bSqpXSKXTgNyuFTm0SP2fcbZjRbqB-aXklmbVPrSo1zm5mUjVq_V0lcfFZheOnwPk1nvjl46MTttP9SpyEp_2L83O9TMzZ4NQbg_7PIofMcJIrtV7sOymLuJ3GC61JAu7eINBmuMAEPSFWyMcPf7l6FbzKFtaM0_Xzmq26FpTA8kcvARxlgufkReysIp8KrGpL-hnAqRQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">17:45 • 도리이 세부</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">새겨진 소원들</span>
+</div>
+</div>
+<!-- Photo 3 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Hanamikoji street in Gion at dusk with traditional wooden machiya houses illuminated by warm glowing paper lanterns and wet cobblestone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmxJtsfu62jhNH39z7LYnTByv0HBaIGKSLLmiEM_i3gNxaguQr5wh3se8z9WLoOwEQJ_enLmb2d6jQszwItS6trUUsDUarAhR4NaG4tuI9qZsgi6XcxrZBJuwvzTQOaSrbhqzJLnRWgSr2zswzEOcq0fIJ0VLCGcsHTv_a1Pa01XJvMyqbOMNFKXMejEJKb76WE2MyWbeEFJg-qKMms6E8_EahXysdSIvA1_UDa89_d4TdRq-8Lj8gRw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">18:50 • 하나미코지</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">해질녘의 기온</span>
+</div>
+</div>
+<!-- Photo 4 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Traditional Japanese paper lantern glowing red with black calligraphy in narrow Kyoto alley at night" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5YPxZhiIrNqfFb5PP8dIzkJ5eHAqFDfPZEs4bKgNjsMV_PxmAG--zwvTN0f8HSDOI2axDUJTbXTL2QGEPYcVTbDluYbf2It-Ek7n2YwQitYLf76be49W4p7XoeCZ7W_l2DpKYWzJL048e6n9WOeh6WRiubDwGZe_ZZJClSxqiXK6y0aDfnXYBLT4m6xHqY2kLZyQKnnypTtOVkUcamV8Rm5ChsHN5XfXu7jGEQfhxmVNFp2TCwTu7SA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">19:30 • 선술집 골목</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">붉은 초롱불</span>
+</div>
+</div>
+<!-- Photo 5 -->
+<div class="group relative rounded-xl overflow-hidden aspect-[3/4] bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Atmospheric night view of Kamogawa river bank in Kyoto with city lights reflecting in the gentle moving water" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBE2dxt3PO96RXmlZQ79WnUasq7zSXrVbo3UJUQyZHZ1w0dBNZcNkJKSzC3dw-1xZfGjO3ZMqKHOVUTJvt6KMqDQtbM2xjx2YxYYuVI_6dYLg7epyi-w3VjLcmyQLic_AMcWIwtXAFFdWrftqc-kooNuEE5kZPQjdOiIZep8bD7l_0t_rzOP9ClX7di4pf9mJKeNk5rdvuEI6VZVhcu6BsfpTwWZkl_3UOcNKHv1S40h_T_p47tDmZ6pw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-90 group-hover:opacity-100 transition-opacity"></div>
+<div class="absolute top-2 right-2 flex gap-1">
+<button class="w-6 h-6 rounded-full bg-black/40 text-white hover:bg-error flex items-center justify-center backdrop-blur-sm transition-colors" title="제거">
+<span class="material-symbols-outlined text-[12px]">close</span>
+</button>
+</div>
+<div class="absolute bottom-2 left-2 right-2 text-white">
+<span class="font-label-caps text-[9px] uppercase tracking-wider block text-white/80">20:20 • 가모가와 강가</span>
+<span class="font-label-sm text-label-sm font-semibold truncate block">여름밤의 바람</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Add New Custom Scene Bar -->
+<button class="w-full py-space-md rounded-2xl bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all flex items-center justify-center gap-space-xs border border-outline-variant/30">
+<span class="material-symbols-outlined text-[20px]">library_add</span>
+<span>새로운 여행 씬(Scene) 수동 생성하기</span>
+</button>
+</section>
+</div>
+</div>
+</div></main><footer class="w-full bg-surface-container-low border-t border-outline-variant/30 py-space-xl"><div class="max-w-[1440px] mx-auto px-margin md:px-margin-md lg:px-margin-lg flex flex-col md:flex-row items-center justify-between gap-space-lg text-center md:text-left"><div class="flex flex-col gap-space-xs"><div class="flex items-center justify-center md:justify-start gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface">TravelCanvasAI</span><span class="font-label-caps text-label-caps text-secondary px-space-xs py-0.5 rounded-full bg-secondary-fixed/50">Editorial Studio</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">인공지능과 아날로그 감성이 빚어내는 여정의 기록과 감각적 아카이브</p></div><div class="flex items-center gap-space-lg font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#">이용약관</a><a class="hover:text-primary transition-colors" href="#">개인정보처리방침</a><a class="hover:text-primary transition-colors" href="#">아카이브 가이드</a></div><div class="font-label-sm text-label-sm text-on-surface-variant/80">© 2025 TravelCanvasAI Inc. All rights reserved.</div></div></footer></body></html>

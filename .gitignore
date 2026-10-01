@@ -1,0 +1,10 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+*.log
+sample-backup
+out
+test-images
+.claude
