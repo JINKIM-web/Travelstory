@@ -1,4 +1,4 @@
-const KEY = import.meta.env.VITE_UNSPLASH_ACCESS_KEY as string | undefined
+const KEY: string | undefined = __UNSPLASH_KEY__ || undefined
 
 export const hasUnsplash = Boolean(KEY)
 
